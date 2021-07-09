@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSAnggota" targetNamespace="http://tempuri.org/DSAnggota.xsd" xmlns:mstns="http://tempuri.org/DSAnggota.xsd" xmlns="http://tempuri.org/DSAnggota.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString1 (Settings)" PropertyReference="ApplicationSettings.CUBonaventura.Properties.Settings.GlobalReference.Default.ConnectionString1" Provider="System.Data.Odbc" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTableTableAdapter" GeneratorDataComponentClassName="DataTableTableAdapter" Name="DataTable" UserDataComponentName="DataTableTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString1 (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM `tbl_anggota`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID_ANGGOTA" DataSetColumn="ID_ANGGOTA" />
+              <Mapping SourceColumn="NAMA_LENGKAP" DataSetColumn="NAMA_LENGKAP" />
+              <Mapping SourceColumn="NAMA_PANGGILAN" DataSetColumn="NAMA_PANGGILAN" />
+              <Mapping SourceColumn="JENIS_IDENTITAS" DataSetColumn="JENIS_IDENTITAS" />
+              <Mapping SourceColumn="NO_IDENTITAS" DataSetColumn="NO_IDENTITAS" />
+              <Mapping SourceColumn="JENIS_KELAMIN" DataSetColumn="JENIS_KELAMIN" />
+              <Mapping SourceColumn="STATUS_PERKAWINAN" DataSetColumn="STATUS_PERKAWINAN" />
+              <Mapping SourceColumn="TEMPAT_LAHIR" DataSetColumn="TEMPAT_LAHIR" />
+              <Mapping SourceColumn="TANGGAL_LAHIR" DataSetColumn="TANGGAL_LAHIR" />
+              <Mapping SourceColumn="AGAMA" DataSetColumn="AGAMA" />
+              <Mapping SourceColumn="ALAMAT_LENGKAP" DataSetColumn="ALAMAT_LENGKAP" />
+              <Mapping SourceColumn="TELEPON" DataSetColumn="TELEPON" />
+              <Mapping SourceColumn="PENDIDIKAN" DataSetColumn="PENDIDIKAN" />
+              <Mapping SourceColumn="PEKERJAAN" DataSetColumn="PEKERJAAN" />
+              <Mapping SourceColumn="TEMPAT_BEKERJA" DataSetColumn="TEMPAT_BEKERJA" />
+              <Mapping SourceColumn="ALAMAT_PEKERJAAN" DataSetColumn="ALAMAT_PEKERJAAN" />
+              <Mapping SourceColumn="JENIS_ANGGOTA" DataSetColumn="JENIS_ANGGOTA" />
+              <Mapping SourceColumn="NO_BUKU" DataSetColumn="NO_BUKU" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSAnggota" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSAnggota" msprop:Generator_UserDSName="DSAnggota">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable" msprop:Generator_TableClassName="DataTableDataTable" msprop:Generator_TableVarName="tableDataTable" msprop:Generator_TablePropName="DataTable" msprop:Generator_RowDeletingName="DataTableRowDeleting" msprop:Generator_RowChangingName="DataTableRowChanging" msprop:Generator_RowEvHandlerName="DataTableRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTableRowDeleted" msprop:Generator_UserTableName="DataTable" msprop:Generator_RowChangedName="DataTableRowChanged" msprop:Generator_RowEvArgName="DataTableRowChangeEvent" msprop:Generator_RowClassName="DataTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_ANGGOTA" msprop:Generator_ColumnVarNameInTable="columnID_ANGGOTA" msprop:Generator_ColumnPropNameInRow="ID_ANGGOTA" msprop:Generator_ColumnPropNameInTable="ID_ANGGOTAColumn" msprop:Generator_UserColumnName="ID_ANGGOTA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_LENGKAP" msprop:Generator_ColumnVarNameInTable="columnNAMA_LENGKAP" msprop:Generator_ColumnPropNameInRow="NAMA_LENGKAP" msprop:Generator_ColumnPropNameInTable="NAMA_LENGKAPColumn" msprop:Generator_UserColumnName="NAMA_LENGKAP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NAMA_PANGGILAN" msprop:Generator_ColumnVarNameInTable="columnNAMA_PANGGILAN" msprop:Generator_ColumnPropNameInRow="NAMA_PANGGILAN" msprop:Generator_ColumnPropNameInTable="NAMA_PANGGILANColumn" msprop:Generator_UserColumnName="NAMA_PANGGILAN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JENIS_IDENTITAS" msprop:Generator_ColumnVarNameInTable="columnJENIS_IDENTITAS" msprop:Generator_ColumnPropNameInRow="JENIS_IDENTITAS" msprop:Generator_ColumnPropNameInTable="JENIS_IDENTITASColumn" msprop:Generator_UserColumnName="JENIS_IDENTITAS">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NO_IDENTITAS" msprop:Generator_ColumnVarNameInTable="columnNO_IDENTITAS" msprop:Generator_ColumnPropNameInRow="NO_IDENTITAS" msprop:Generator_ColumnPropNameInTable="NO_IDENTITASColumn" msprop:Generator_UserColumnName="NO_IDENTITAS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JENIS_KELAMIN" msprop:Generator_ColumnVarNameInTable="columnJENIS_KELAMIN" msprop:Generator_ColumnPropNameInRow="JENIS_KELAMIN" msprop:Generator_ColumnPropNameInTable="JENIS_KELAMINColumn" msprop:Generator_UserColumnName="JENIS_KELAMIN">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="STATUS_PERKAWINAN" msprop:Generator_ColumnVarNameInTable="columnSTATUS_PERKAWINAN" msprop:Generator_ColumnPropNameInRow="STATUS_PERKAWINAN" msprop:Generator_ColumnPropNameInTable="STATUS_PERKAWINANColumn" msprop:Generator_UserColumnName="STATUS_PERKAWINAN">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TEMPAT_LAHIR" msprop:Generator_ColumnVarNameInTable="columnTEMPAT_LAHIR" msprop:Generator_ColumnPropNameInRow="TEMPAT_LAHIR" msprop:Generator_ColumnPropNameInTable="TEMPAT_LAHIRColumn" msprop:Generator_UserColumnName="TEMPAT_LAHIR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TANGGAL_LAHIR" msprop:Generator_ColumnVarNameInTable="columnTANGGAL_LAHIR" msprop:Generator_ColumnPropNameInRow="TANGGAL_LAHIR" msprop:Generator_ColumnPropNameInTable="TANGGAL_LAHIRColumn" msprop:Generator_UserColumnName="TANGGAL_LAHIR" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="AGAMA" msprop:Generator_ColumnVarNameInTable="columnAGAMA" msprop:Generator_ColumnPropNameInRow="AGAMA" msprop:Generator_ColumnPropNameInTable="AGAMAColumn" msprop:Generator_UserColumnName="AGAMA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALAMAT_LENGKAP" msprop:Generator_ColumnVarNameInTable="columnALAMAT_LENGKAP" msprop:Generator_ColumnPropNameInRow="ALAMAT_LENGKAP" msprop:Generator_ColumnPropNameInTable="ALAMAT_LENGKAPColumn" msprop:Generator_UserColumnName="ALAMAT_LENGKAP" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TELEPON" msprop:Generator_ColumnVarNameInTable="columnTELEPON" msprop:Generator_ColumnPropNameInRow="TELEPON" msprop:Generator_ColumnPropNameInTable="TELEPONColumn" msprop:Generator_UserColumnName="TELEPON" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PENDIDIKAN" msprop:Generator_ColumnVarNameInTable="columnPENDIDIKAN" msprop:Generator_ColumnPropNameInRow="PENDIDIKAN" msprop:Generator_ColumnPropNameInTable="PENDIDIKANColumn" msprop:Generator_UserColumnName="PENDIDIKAN">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PEKERJAAN" msprop:Generator_ColumnVarNameInTable="columnPEKERJAAN" msprop:Generator_ColumnPropNameInRow="PEKERJAAN" msprop:Generator_ColumnPropNameInTable="PEKERJAANColumn" msprop:Generator_UserColumnName="PEKERJAAN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TEMPAT_BEKERJA" msprop:Generator_ColumnVarNameInTable="columnTEMPAT_BEKERJA" msprop:Generator_ColumnPropNameInRow="TEMPAT_BEKERJA" msprop:Generator_ColumnPropNameInTable="TEMPAT_BEKERJAColumn" msprop:Generator_UserColumnName="TEMPAT_BEKERJA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALAMAT_PEKERJAAN" msprop:Generator_ColumnVarNameInTable="columnALAMAT_PEKERJAAN" msprop:Generator_ColumnPropNameInRow="ALAMAT_PEKERJAAN" msprop:Generator_ColumnPropNameInTable="ALAMAT_PEKERJAANColumn" msprop:Generator_UserColumnName="ALAMAT_PEKERJAAN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="JENIS_ANGGOTA" msprop:Generator_ColumnVarNameInTable="columnJENIS_ANGGOTA" msprop:Generator_ColumnPropNameInRow="JENIS_ANGGOTA" msprop:Generator_ColumnPropNameInTable="JENIS_ANGGOTAColumn" msprop:Generator_UserColumnName="JENIS_ANGGOTA">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NO_BUKU" msprop:Generator_ColumnVarNameInTable="columnNO_BUKU" msprop:Generator_ColumnPropNameInRow="NO_BUKU" msprop:Generator_ColumnPropNameInTable="NO_BUKUColumn" msprop:Generator_UserColumnName="NO_BUKU" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable" />
+      <xs:field xpath="mstns:ID_ANGGOTA" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
